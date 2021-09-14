@@ -1,0 +1,7 @@
+<%= form_with url:'',local: false, method: :get do |f|  %>
+
+<%= f.text_field :q %>
+
+<%= f.submit "Submit", disable_with: 'Submiting...', remote: false %>
+
+<% end  %>
